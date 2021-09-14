@@ -9,13 +9,25 @@
 <body>
 
 <header>
-<nav>
-    <a href="first.html">First page!</a>
-    <a href="second.html">Second page!</a>
-    <a href="third.html">Third page!</a>
-    <a href="fourth.html">Fourth page!</a>
-</nav>
+    <nav>
+        <a href="first.html">Main</a>
+        <a href="second.html">Go-Go-Fish!</a>
+        <a href="third.html">Projects</a>
+        <a href="fourth.html">Works</a>
+    </nav>
 </header>
+
+<div class="intro">
+    <div class="intro_text">
+        <h1>Hey There!</h1>
+        <h2>It's Website, I guess.</h2>
+    </div>
+</div>
+
+
+
+
+
 
 <style>
     header{
@@ -30,8 +42,29 @@
     }
 
     nav a{
+        font-family: monospace;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
         text-decoration: none;
         color: white;
+    }
+
+    .intro{
+        margin-top: 200px;
+    }
+
+    .intro_text{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    .intro_text h2{
+        margin-top: -30px;
+        color: rgb(56, 56, 56);
     }
 </style>
 
