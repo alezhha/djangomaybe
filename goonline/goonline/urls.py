@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from htmlboy.views import homeguy, first, second, third, fourth
+from htmlboy.views import homeguy, first, second, third, fourth, test
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,5 +23,6 @@ urlpatterns = [
     path('first/', first, name='first'),
     path('second/', second, name='second'),
     path('third/', third, name='third'),
-    path('fourth/', fourth, name='fourth')
+    path('fourth/', fourth, name='fourth'),
+    path('test/', test, name='test')
 ]
